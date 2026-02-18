@@ -1,6 +1,7 @@
 function calcula(num1,num2,operaçao)
 {
     let res=0;
+    
     switch(operaçao){
         case "+":
              res=num1+num2;
@@ -33,3 +34,4 @@ calcula(34,45,"-");
 calcula(34,45,"*");
 calcula(34,45,"/");
 calcula(34,45,"**");
+//comentario

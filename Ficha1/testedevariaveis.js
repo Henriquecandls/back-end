@@ -1,0 +1,9 @@
+var x =10;
+var y=5;
+var z =x+y;
+var z1=x-y;
+var z2=x*y;
+var z3=x/y;
+console.log("x = "+ x );
+console.log("y = "+ y );
+console.log("z = " + z + " x + y");

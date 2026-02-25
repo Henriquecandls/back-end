@@ -17,6 +17,7 @@ function letraOcorreSplit(frase, letra){
 
 let letra = "o";
 let frase = "Hoje é domingo";
+
 console.log("A letra " + letra 
     + " ocorre " + letraOcorre(frase,letra) 
     + " vezes na frase: " + frase);

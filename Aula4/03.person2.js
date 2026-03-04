@@ -14,7 +14,7 @@ class Pessoa{
 let joao = new Pessoa("joão", "Gomes");
 let maria = new Pessoa("maria", "Silva");
 
-joao.greet();
+joao.greet();//procura em qualquer onde fica o resto por exemplo se n tiver o ultimo nome procura em outro objeto
 maria.greet();
 
 console.log(joao.__proto__ == maria.__proto__);
